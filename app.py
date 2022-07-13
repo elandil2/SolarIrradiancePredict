@@ -38,7 +38,7 @@ def getResponseLinearReg():
     DEWPOINT = parseInt(request.form["DEWPOINT"])
     GHI = parseInt(request.form["GHI"])
     OZONE = parseInt(request.form["OZONE"])
-    RELATIVEHUMADITY = parseInt(request.form["RELATIVEHUMADITY"])
+    RELATIVEHUMIDITY = parseInt(request.form["RELATIVEHUMIDITY"])
     SURFACEALBEDO = parseInt(request.form["SURFACEALBEDO"])
     PRECIPITABLEWATER = parseInt(request.form["PRECIPITABLEWATER"])
     CLOUDTYPE = parseInt(request.form["CLOUDTYPE"])
@@ -54,7 +54,7 @@ def getResponseLinearReg():
     inputList = [DEWPOINT,
                  GHI,
                  OZONE,
-                 RELATIVEHUMADITY, 
+                 RELATIVEHUMIDITY, 
                  SURFACEALBEDO, 
                  PRECIPITABLEWATER] + CLOUDTYPE_ARR
 
